@@ -14,15 +14,14 @@ with st.sidebar:
     )
     st.sidebar.markdown("📘 **About**")
     st.sidebar.markdown("""
-    **RANTAI BUSI** adalah modul Business Intelligence (BI) yang menyediakan dashboard interaktif dan laporan real-time untuk membantu pengguna bisnis memantau kinerja, tren, dan indikator kunci secara mudah dan cepat. Dengan integrasi data yang solid dan visualisasi yang intuitif, BI memungkinkan pengambilan keputusan yang lebih efisien dan berbasis data.
+    **RANTAI Trace** adalah platform traceability berbasis blockchain yang dirancang untuk memantau rantai pasok, distribusi, dan perjalanan data dari hulu ke hilir. Dengan menggabungkan data on-chain (transaksi blockchain, smart contract event) dan off-chain (logistik, dokumen, sensor IoT), RANTAI Trace menghadirkan transparansi, akuntabilitas, dan verifikasi real-time bagi berbagai sektor.
     
     ---
     #### 🔮 Vision Statement
     
-    Menjadi solusi BI terdepan yang memberikan wawasan bisnis realtime, praktis, dan dapat diakses oleh semua level organisasi, mendorong keputusan cerdas yang memacu pertumbuhan berkelanjutan.
-
-    ---
-    ### 🌐 RANTAI Pipeline
+    Membangun ekosistem rantai pasok yang transparan, aman, dan berkelanjutan dengan dukungan blockchain, sehingga setiap langkah distribusi dapat diverifikasi dan dipercaya.
+    
+    ### 🌐 RANTAI-Green Pipeline
     
     Keempat modul—EDA, BI, Predictive Modeling, dan ETHIKA—bekerja bersama sebagai bagian dari siklus analitik data yang saling terintegrasi, memastikan alur data dan insight yang mulus dari awal hingga akhir dengan keseimbangan etika dan fairness sebagai pijakan utama.
     
@@ -96,4 +95,4 @@ def embed_iframe(src, hide_top_px=100, hide_bottom_px=0, height=800):
 iframe_url = "https://ohara.ai/mini-apps/ffbedfd0-09f1-401a-b69e-80a057134614"
 
 # Panggil fungsi
-embed_iframe(iframe_url, hide_top_px=110, hide_bottom_px = 20, height=800)
+embed_iframe(iframe_url, hide_top_px=110, hide_bottom_px = 15, height=800)
